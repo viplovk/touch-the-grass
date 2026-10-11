@@ -1,0 +1,8 @@
+{
+  "name": "Touch Grass Simulator",
+  "description": "An absurdist, cinematic 3D indie exploration game set upon floating islands above a dreamlike cloud sea. Touch grass, feed floating rocks, pet clouds, and exist peacefully.",
+  "requestFramePermissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

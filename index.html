@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Touch Grass Simulator</title>
+    <meta name="description" content="An absurdist, cinematic 3D indie exploration game set upon floating islands above a dreamlike cloud sea. Touch grass, feed floating rocks, pet clouds, and exist peacefully." />
+    
+    <!-- OpenGraph -->
+    <meta property="og:title" content="Touch Grass Simulator" />
+    <meta property="og:description" content="An absurdist, cinematic 3D indie exploration game set upon floating islands above a dreamlike cloud sea. Touch grass, feed floating rocks, pet clouds, and exist peacefully." />
+    <meta property="og:type" content="website" />
+
+    <!-- Google Fonts: Fraunces (Expressive Editorial Serif) & Plus Jakarta Sans (Clean Modern Sans) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+      /* Ensure full viewport and clean base styling */
+      html, body, #root {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #0d0f1e;
+        color: #f8fafc;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+      }
+      .font-serif {
+        font-family: 'Fraunces', serif, Georgia;
+      }
+      .font-sans {
+        font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+      }
+    </style>
+  </head>
+  <body class="font-sans antialiased bg-[#0b0d1b] text-slate-100">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
